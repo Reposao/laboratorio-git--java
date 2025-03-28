@@ -5,7 +5,11 @@ public class Main {
     public static void main(String[] args) {
     System.out.println("Bienvenidos al laboratorio de Git con Java");
 
+    Director mensaje = new Director();
+    mensaje.mensajePrueba();
+    }
 
+}
     secretaria mensaje = new secretaria ();
     mensaje.mostrarMensaje();
     }
@@ -14,4 +18,5 @@ public class Main {
         mensaje.mensajePrueba();
 }
     }
+
 
