@@ -1,5 +1,7 @@
 package co.edu.uniquindio.poo;
 
 public class Estudiante {
-    //elestudiante
+    public void mensajePrueba() {
+        System.out.println("hola Anita");
+    }
 }
